@@ -15,3 +15,15 @@
 - Absolute beginners with no prior coding experience.
 - People who want to learn C++ but don't know where to start.
 - Anyone who enjoys a good challenge (and a good laugh).
+
+## What you'll need:
+
+- A computer with a C++ compiler installed.
+- A willingness to learn and a sense of humor.
+- A snack or two to keep you going (coding can be hungry work).
+
+## Getting started:
+
+- Clone this repository.
+- Open your favorite C++ compiler.
+- Start coding!
