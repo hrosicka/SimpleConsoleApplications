@@ -11,7 +11,8 @@ class BmiCalculator
         // Function to calculate and display BMI
         void calculateBmi() 
         {
-            int heightInCentimeters, weightInKilograms;
+            int heightInCentimeters = 0;
+            int weightInKilograms = 0;
 
             cout << "Enter your height in centimeters: ";
             cin >> heightInCentimeters;
@@ -29,8 +30,8 @@ class BmiCalculator
 
 int main() 
 {
-  BmiCalculator bmiCalculator;
-  bmiCalculator.calculateBmi();
+    BmiCalculator bmiCalculator;
+    bmiCalculator.calculateBmi();
 
-  return 0;
+    return 0;
 }

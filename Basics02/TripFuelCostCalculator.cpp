@@ -7,11 +7,18 @@ using namespace std;
 class TripFuelCalculator 
 {
     private:
-        float distance; // Distance traveled in kilometers
-        float fuelConsumed; // Fuel consumed in liters
-        float fuelEfficiency; // Fuel efficiency in liters per 100 kilometers
+        float distance;         // Distance traveled in kilometers
+        float fuelConsumed;     // Fuel consumed in liters
+        float fuelEfficiency;   // Fuel efficiency in liters per 100 kilometers
 
     public:
+        // Constructor to initialize hour and minute to 0
+        TripFuelCalculator() 
+        {
+            distance = 0;
+            fuelConsumed = 0;
+            fuelEfficiency = 0;
+        }
         // Function to get user input for distance
         void setDistance()
         {
@@ -36,7 +43,7 @@ class TripFuelCalculator
 
 
 
-int main ( )
+int main ()
 {
     TripFuelCalculator tripCalculator;
 

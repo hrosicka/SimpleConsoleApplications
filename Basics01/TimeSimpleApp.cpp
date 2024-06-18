@@ -13,6 +13,13 @@ class Time
         int minute; // This variable stores the minute value (0-59).
 
 public:
+    // Constructor to initialize hour and minute to 0
+    Time() 
+    {
+        hour = 0;
+        minute = 0;
+    }
+    
     // Function to set the time (with basic input validation)
     int set_time() 
     {
