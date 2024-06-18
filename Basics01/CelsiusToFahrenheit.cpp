@@ -3,17 +3,20 @@
 
 #include <iostream>
 
-class TemperatureConverter {
-public:
-    // Function to convert Celsius to Fahrenheit.
-    // Takes a float representing the temperature in Celsius as input.
-    // Returns the converted temperature in Fahrenheit as a float.
-    float CelsiusToFahrenheit(float celsius) {
-        return 1.8f * celsius + 32.0f;
-    }
+class TemperatureConverter
+{
+    public:
+        // Function to convert Celsius to Fahrenheit.
+        // Takes a float representing the temperature in Celsius as input.
+        // Returns the converted temperature in Fahrenheit as a float.
+        float celsiusToFahrenheit(float celsius) 
+        {
+            return 1.8f * celsius + 32.0f;
+        }
 };
 
-int main() {
+int main() 
+{
     // Create an object of the TemperatureConverter class.
     TemperatureConverter converter;
     
@@ -25,7 +28,7 @@ int main() {
     std::cin >> celsius;
 
     // Convert the Celsius temperature to Fahrenheit using the converter object.
-    float fahrenheit = converter.CelsiusToFahrenheit(celsius);
+    float fahrenheit = converter.celsiusToFahrenheit(celsius);
 
     // Display the converted temperature in Fahrenheit.
     std::cout << "In Fahrenheit it is: " << fahrenheit << std::endl;

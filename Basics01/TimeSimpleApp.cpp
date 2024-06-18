@@ -5,19 +5,23 @@
 
 using namespace std; // This line tells the compiler to use the "std" namespace, which contains standard objects like cout, cin, and endl.
 
-class Time { // This defines a class called "Time" that represents a time of day.
-private:
-    int hour;  // This variable stores the hour value (0-23).
-    int minute; // This variable stores the minute value (0-59).
+class Time 
+{   
+    // This defines a class called "Time" that represents a time of day.
+    private:
+        int hour;  // This variable stores the hour value (0-23).
+        int minute; // This variable stores the minute value (0-59).
 
 public:
     // Function to set the time (with basic input validation)
-    int set_time() {
+    int set_time() 
+    {
         cout << "Enter hour and minute separated by a space (e.g., 11 45): "; // Prompts the user to enter the time in a specific format.
         cin >> hour >> minute;                                                // Reads the hour and minute values from the user input.
 
         // Basic validation (can be improved)
-        if (hour < 0 || hour > 23 || minute < 0 || minute > 59) {
+        if (hour < 0 || hour > 23 || minute < 0 || minute > 59) 
+        {
             cout << "Invalid time! Please enter hour in range 0-23 and minute in range 0-59." << endl; // Displays an error message if the entered time is invalid.
             return 1; // Returns 1 to indicate an error during time setting.
         }
@@ -26,7 +30,8 @@ public:
     }
 
     // Function to display the time
-    void display_time() const {
+    void display_time() const 
+    {
         cout << "Time: " << setw(2) << setfill('0') << hour << ":"  // Formats the output to display "Time: " followed by the hour with leading zeros (if needed).
             << setw(2) << setfill('0') << minute << endl;          // Formats the output to display the minute with leading zeros (if needed) and a newline character.
     }
