@@ -27,3 +27,8 @@
 - Clone this repository.
 - Open your favorite C++ compiler.
 - Start coding!
+
+## [**Basics 01**](https://github.com/hrosicka/SimpleConsoleApplications/tree/master/Basics01)
+### [**Playful jab at those who only use Celsius**](https://github.com/hrosicka/SimpleConsoleApplications/blob/master/Basics01/CelsiusToFahrenheit.cpp)
+- This code is for our friends who still shiver in degrees they can't count on their fingers. It converts temperatures from Celsius (who?) to Fahrenheit (the sensible choice ).
+
