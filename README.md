@@ -1,7 +1,9 @@
 # Baby's First Steps into C++
-**GitHub Repository for Beginners. C++ Console Apps: Your Gateway to Coding Mastery**
+**Conquer C++: Your Beginner's Guide. GitHub Repository for Beginners. C++ Console Apps: Your Gateway to Coding Mastery**
 
-- Learn to code like a boss, starting with these basic (but awesome) console apps.
+- Build the programs of tomorrow!
+- Unlock the power of coding!
+- Learn to code like a boss, starting with these basic (but awesome) console apps!
 - C++ so easy, your grandma could do it!
 
 ## Features
