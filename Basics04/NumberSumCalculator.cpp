@@ -34,8 +34,8 @@ int main()
     clearInputBuffer();  // Clears the input buffer
 
     cout << "The sum of all entered numbers is: " << totalSum << endl;
-	return 0;
 
+	return 0;
 }
 
 
