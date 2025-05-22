@@ -1,4 +1,13 @@
 # Baby's First Steps into C++
+
+[![Beginner Friendly](https://img.shields.io/badge/for-beginners-brightgreen?style=for-the-badge&logo=cpp)](https://github.com/hrosicka/SimpleConsoleApplications)
+[![C++ Fun Zone](https://img.shields.io/badge/C++-Fun%20Zone-ff69b4?style=for-the-badge&logo=cpp)](https://github.com/hrosicka/SimpleConsoleApplications)
+[![Grandma Approved](https://img.shields.io/badge/So%20easy-Your%20grandma%20could%20do%20it-blueviolet?style=for-the-badge&logo=cpp)](https://github.com/hrosicka/SimpleConsoleApplications)
+[![Console Only](https://img.shields.io/badge/UI-Text%20Only-lightgrey?style=for-the-badge&logo=terminal)](https://github.com/hrosicka/SimpleConsoleApplications)
+[![Humor Inside](https://img.shields.io/badge/Humor-Inside-yellow?style=for-the-badge&logo=smile)](https://github.com/hrosicka/SimpleConsoleApplications)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![Snack Friendly](https://img.shields.io/badge/Snack%20Breaks-Recommended-orange?style=for-the-badge&logo=coffee)](https://github.com/hrosicka/SimpleConsoleApplications)
+
 **Conquer C++: Your Beginner's Guide. GitHub Repository for Beginners. C++ Console Apps: Your Gateway to Coding Mastery**
 
 - Build the programs of tomorrow!
