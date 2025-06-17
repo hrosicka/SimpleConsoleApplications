@@ -1,15 +1,26 @@
 #include <iostream>
-#include <limits> // For input validation
-#include <iomanip> // For std::fixed and std::setprecision
+#include <limits>   // For input validation
+#include <iomanip>  // For std::fixed and std::setprecision
 
-// This program calculates the Body Mass Index (BMI) from user input.
+// This program calculates the Body Mass Index (BMI) based on user input.
+
+/**
+ * Calculates BMI given height in centimeters and weight in kilograms.
+ * @param height_cm Height in centimeters
+ * @param weight_kg Weight in kilograms
+ * @return Calculated BMI
+ */
+float calculate_bmi(int height_cm, int weight_kg) {
+    float height_m = static_cast<float>(height_cm) / 100.0f;
+    return weight_kg / (height_m * height_m);
+}
 
 int main()
 {
     int height_centimeters = 0;
     int weight_kg = 0;
 
-    // Prompt for height and validate input
+    // Prompt user for height and validate the input (must be a positive integer)
     std::cout << "Enter your height in centimeters: ";
     while (!(std::cin >> height_centimeters) || height_centimeters <= 0) {
         std::cout << "Invalid input. Please enter a positive integer for height: ";
@@ -17,7 +28,7 @@ int main()
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Discard invalid input
     }
 
-    // Prompt for weight and validate input
+    // Prompt user for weight and validate the input (must be a positive integer)
     std::cout << "Enter your weight in kilograms: ";
     while (!(std::cin >> weight_kg) || weight_kg <= 0) {
         std::cout << "Invalid input. Please enter a positive integer for weight: ";
@@ -25,16 +36,13 @@ int main()
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Discard invalid input
     }
 
-    // Convert height from centimeters to meters
-    float height_meters = static_cast<float>(height_centimeters) / 100.0f;
+    // Calculate BMI using the inputted values
+    float bmi = calculate_bmi(height_centimeters, weight_kg);
 
-    // Calculate BMI
-    float bmi = static_cast<float>(weight_kg) / (height_meters * height_meters);
-
-    // Output result with two decimal places
+    // Output the result, formatted to two decimal places
     std::cout << "Your BMI is: " << std::fixed << std::setprecision(2) << bmi << std::endl;
 
-    // Provide basic BMI category feedback
+    // Provide basic feedback about the BMI category
     if (bmi < 18.5f) {
         std::cout << "Category: Underweight" << std::endl;
     } else if (bmi < 25.0f) {
@@ -45,7 +53,7 @@ int main()
         std::cout << "Category: Obesity" << std::endl;
     }
 
-    // Wait for user input before closing (optional)
+    // Wait for user input before closing (optional for some environments)
     std::cout << "Press Enter to exit..." << std::endl;
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Clear input buffer
     std::cin.get();
