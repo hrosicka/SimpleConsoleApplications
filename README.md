@@ -52,3 +52,10 @@
 - Feeling fancy with your fancy calculators? This code is for those who appreciate the classics – basic integer arithmetic at your fingertips (well, keyboard tips). Plus, no batteries required!
 ### [**Fuel your adventures with this code! ️⛽️**](https://github.com/hrosicka/SimpleConsoleApplications/blob/master/Basics02/TripFuelCostCalculator.cpp)
 - This program is your eco-conscious copilot, helping you calculate your car's fuel efficiency on any road trip.  Simply enter the distance you traveled and the amount of fuel you used, and the program will calculate your fuel efficiency in liters per 100 kilometers.
+
+## Author
+Lovingly crafted by [Hanka Robovska](https://github.com/hrosicka) 👩‍🔬
+
+## License
+MIT – Free to use, modify, and distribute as needed.
+
