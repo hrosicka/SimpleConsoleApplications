@@ -1,12 +1,41 @@
 # Baby's First Steps into C++
 
-[![Beginner Friendly](https://img.shields.io/badge/for-beginners-brightgreen?style=for-the-badge&logo=cpp)](https://github.com/hrosicka/SimpleConsoleApplications)
-[![C++ Fun Zone](https://img.shields.io/badge/C++-Fun%20Zone-ff69b4?style=for-the-badge&logo=cpp)](https://github.com/hrosicka/SimpleConsoleApplications)
-[![Grandma Approved](https://img.shields.io/badge/So%20easy-Your%20grandma%20could%20do%20it-blueviolet?style=for-the-badge&logo=cpp)](https://github.com/hrosicka/SimpleConsoleApplications)
-[![Console Only](https://img.shields.io/badge/UI-Text%20Only-lightgrey?style=for-the-badge&logo=terminal)](https://github.com/hrosicka/SimpleConsoleApplications)
-[![Humor Inside](https://img.shields.io/badge/Humor-Inside-yellow?style=for-the-badge&logo=smile)](https://github.com/hrosicka/SimpleConsoleApplications)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
-[![Snack Friendly](https://img.shields.io/badge/Snack%20Breaks-Recommended-orange?style=for-the-badge&logo=coffee)](https://github.com/hrosicka/SimpleConsoleApplications)
+<div align="center">
+
+  <a href="https://github.com/hrosicka/SimpleConsoleApplications/stargazers">
+    <img src="https://img.shields.io/github/stars/hrosicka/SimpleConsoleApplications?style=for-the-badge&color=4F8EF7&logo=starship&logoColor=white" alt="Stars" />
+  </a>
+  <a href="https://github.com/hrosicka/SimpleConsoleApplications/network/members">
+    <img src="https://img.shields.io/github/forks/hrosicka/SimpleConsoleApplications?style=for-the-badge&color=4F8EF7&logo=git&logoColor=white" alt="Forks" />
+  </a>
+  <a href="https://github.com/hrosicka/SimpleConsoleApplications/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/hrosicka/SimpleConsoleApplications?style=for-the-badge&color=4F8EF7&logo=github&logoColor=white" alt="Contributors" />
+  </a>
+  <a href="https://github.com/hrosicka/SimpleConsoleApplications/commits/master">
+    <img src="https://img.shields.io/github/last-commit/hrosicka/SimpleConsoleApplications?style=for-the-badge&color=6366F1&logo=githubactions&logoColor=white" alt="Last Commit" />
+  </a>
+  <a href="https://github.com/hrosicka/SimpleConsoleApplications/issues">
+    <img src="https://img.shields.io/github/issues/hrosicka/SimpleConsoleApplications?style=for-the-badge&color=F59E0B&logo=github&logoColor=white" alt="Issues" />
+  </a>
+  <br/>
+
+  <a href="https://isocpp.org/">
+    <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+  </a>
+  <img src="https://img.shields.io/badge/UI-Console%20%2F%20Text%20Only-334155?style=for-the-badge&logo=gnubash&logoColor=white" alt="Console Only" />
+  <img src="https://img.shields.io/badge/For-Beginners-22C55E?style=for-the-badge&logo=sparkles&logoColor=white" alt="Beginner Friendly" />
+  <img src="https://img.shields.io/badge/C%2B%2B-Fun%20Zone-EC4899?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++ Fun Zone" />
+  <img src="https://img.shields.io/github/repo-size/hrosicka/SimpleConsoleApplications?style=for-the-badge&color=3B82F6&logo=files&logoColor=white" alt="Repo Size" />
+  <br/>
+
+  <img src="https://img.shields.io/badge/So%20Easy-Your%20Grandma%20Could%20Do%20It-8B5CF6?style=for-the-badge&logo=cplusplus&logoColor=white" alt="Grandma Approved" />
+  <img src="https://img.shields.io/badge/Humor-Inside-F59E0B?style=for-the-badge&logo=sparkles&logoColor=white" alt="Humor Inside" />
+  <img src="https://img.shields.io/badge/Snack%20Breaks-Recommended-F97316?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="Snack Friendly" />
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="License: MIT" />
+  </a>
+
+</div>
 
 **Conquer C++: Your Beginner's Guide. GitHub Repository for Beginners. C++ Console Apps: Your Gateway to Coding Mastery**
 
